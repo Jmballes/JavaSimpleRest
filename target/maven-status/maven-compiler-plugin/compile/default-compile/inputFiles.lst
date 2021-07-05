@@ -1,0 +1,8 @@
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\config\SwaggerConfig.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\repository\ProductRepository.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\controller\advice\ProductAdvice.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\dto\MessageDTO.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\model\Product.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\service\ProductsService.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\RestapiApplication.java
+D:\aws\workspace\JavaSimpleRest\src\main\java\com\example\restapi\controller\ProductsController.java

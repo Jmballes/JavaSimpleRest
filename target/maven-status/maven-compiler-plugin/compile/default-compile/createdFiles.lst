@@ -1,0 +1,8 @@
+com\example\restapi\controller\advice\ProductAdvice.class
+com\example\restapi\model\Product.class
+com\example\restapi\dto\MessageDTO.class
+com\example\restapi\RestapiApplication.class
+com\example\restapi\repository\ProductRepository.class
+com\example\restapi\service\ProductsService.class
+com\example\restapi\config\SwaggerConfig.class
+com\example\restapi\controller\ProductsController.class
