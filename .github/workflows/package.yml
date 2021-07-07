@@ -21,12 +21,12 @@ jobs:
           name: assets-for-download
           path: target/*.jar
       - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }} # if you have/need it
-        aws-region: eu-west-1
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }} # if you have/need it
+          aws-region: eu-west-1
       - name: Copy files to the production website with the AWS CLI
         run: |
           aws s3 cp /target/restapi-0.0.1-SNAPSHOT.jar s3://my-s3-prod-website-bucket
